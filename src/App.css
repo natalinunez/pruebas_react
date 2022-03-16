@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #D69C79;
+  font: 'arial';
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 1rem!;
+  margin: 0!important;
+  padding: 0!important;     
+}
+
+ul , li{  
+  list-style: none;
+  margin: 0!important;
+  padding: 0!important;   
+}
+
+body{
+  font-family: "arial"!important;
+}
+
+/* Beginning: style for component NavBar */
+.styleBrand {
+  font-size: 2rem;    
+  font-weight: bold;
+  color: #D69C79;  
+}
+
+.styleMenu {
+  font-size: 1rem;    
+  color: #D69C79!important;
+  font-weight: bold;
+}
+
+.BackgroundColor {
+  background-color: #E4DCD8;
+}
+/* End: style for component NavBar */
+
+/* Beginning: style for component CartWidget */
+.styleItemListContainer {
+  color: #D69C79;
+}
+
+/* Beginning: style for component CartWidget */
+.containerIconCart {
+  position: relative;
+}
+
+.styleIconCart {
+  color: #D69C79;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.styleBubbleCart {
+  color: #D69C79;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 50%;  
+  border: 1px solid #D69C79; 
+  background-color: #f0edec;
+  height: 1.2rem;
+  width: 1.2rem;
+  top: 10%;
+  left: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  position: absolute;  
+}
+/* End: style for component CartWidget */
+
+/* Beginning: style for component ItemList */
+.containerCards {
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, 20rem);   
+  grid-column-gap: 0rem; 
+  width: 70vw;      
+  padding: 0 2rem;
+}
+/* End: style for component ItemList */
+
+/* Beginning: style for component Item */
+.cardImage {
+  width: auto;
+  height: 20rem;
+  border-radius: 0.3rem;
+}
+
+.stylePrice {  
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cardButton {    
+  font-size: 1.1rem;
+  background-color:  #E4DCD8;
+  border-radius: 0.3rem;
+  border: 1px solid #D69C79;
+  font-weight: bold;
+  padding: 0.5rem 0.5rem;
+}
+
+.cardHover:hover{  
+  transition: all 0.5s ease;
+  /*crece el card*/
+  transform: scale(1.05,1.05);
+  background-color: #f1ece8;
+}
+/* End: style for component Item */
+
+/* Beginning: style for component ItemDetail */
+.containerDetail {
+  display: flex;
+  justify-content: center;
+}
+
+.imageDetail {  
+  margin: 0;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+  
+}
+
+.cardDetailDescription {
+  /* margin: 0 0; */
+  
+}
+
+.sizeTipografia {
+  font-size: 1.4rem;
+}
+/* End: style for component ItemDetail */
+
+/* Beginning: style for component ItemCount */
+.containerCount {
+  display: flex;  
+  flex-direction: column;
+}
+
+.containerButtons {  
+  display: flex;
+  justify-content: space-between;
+  margin: 0!important;  
+  padding: 0!important;  
+}
+
+.containerUl {
+  display: flex;
+}
+
+.styleIconMinusPlus {
+  /* color: #ad5d2b; */
+  font-size: 1.3rem;    
+  font-weight: bold;
+}
+
+.styleSpan {
+  color: #D69C79!important;
+}
+
+.buttonAddCart {  
+  border: 1px solid #D69C79;
+  border-radius: 3px;
+  color: #D69C79;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.3rem 0;
+  min-width: 8rem;
+  height: 2.4rem;
+}
+/* End: style for component ItemCount */
+
+/* Beginning: style for component Cart */
+.botonCantiCarrito {  
+  border: 1px solid #D69C79;
+  color: #D69C79;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.button {  
+  border: 1px solid #D69C79;
+  border-radius: 3px;
+  color: #D69C79;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.4rem 2rem;
+  text-decoration: none;
+}
+
+.imageCart {
+  width: 7rem;
+  height: auto;
+  border-radius: 0.3rem;  
+}
+
+.containerButtonsCart {
+  display: flex;
+  justify-content: space-between;  
+}
+
+.styleResumeOrder {
+  display: flex;
+  justify-content: center;
+  width: 10rem;
+  gap: 3rem;
+}
+
+.styleLabel {
+  width: 5rem;
+}
+
+.containerResumeOrder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  border: 1px solid #D69C79;
+  border-radius: 0.5rem;
+  margin-left: 4rem;
+  height: 18rem;
+}
+/* End: style for component Cart */
+
+/* para pruebas */
+ /* .bordeAzul {
+     border: 1px solid #230985;    
+ }
+
+ .bordeRojo {
+     border: 1px solid #f70c0c;
+ }
+
+ .bordeAmarrillo {
+     border: 1px solid #f1c70c;
+ }
+
+ .bordeVerde {
+    border: 1px solid #08eb08;
+ }  */
+
+ /*Estos son los colores de la marca by danny*/
+.colores {
+  color: #E4DCD8;
+  color: #D69C79;
+  color: #E7D0C1;
+  color: #C1B0A8;     
+}
+
+.styleLoading {
+  font-size: 2rem;
+  font-weight: bold;
+  /* margin-left: 12rem; */
+  /* margin-top: 5rem; */
+}
+
+/* cuando el valor > 1200 valor: 1201, 1202, 1203 */
+@media screen and (min-width: 1200px) {
+  .fondo {
+    /* background-color: pink; */
+  }
+}
+
+/* valor > 960 and valor <= 1200  valores: 961, 962, 963, ...., 1200 */
+@media screen and (min-width: 960px) and (max-width: 1200px) {
+  .fondo {
+    background-color: skyblue;
+  }
+}
+/* valor > 768 and valor <= 960  valores: 769, 770, 771, ...., 960 */
+@media screen and (min-width: 768px) and (max-width: 960px) {
+  .fondo {
+    background-color: green;
+  }
+}
+/* 531 hasta 768  */
+@media screen and (min-width: 530px) and (max-width: 768px) {
+  .fondo {
+    background-color: yellow;
+  }
+}
+
+@media screen and (min-width: 460px) and (max-width: 530px) {
+  .fondo {
+    background-color: rgb(226, 140, 11);
+  }
+}
+
+/* 381, 382, 383, ...,460  */
+@media screen and (min-width: 380px) and (max-width: 460px) {
+  .fondo {
+    background-color: red;
+  }
+}
+
+/* 380, 379, 378, 377 */
+@media screen and (max-width: 380px) {
+  .fondo {
+    background-color: blue;
+  }
+  .containerButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.5rem;
+  }
+
+  .containerCount {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: start;
+  }
+}
